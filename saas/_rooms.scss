@@ -1,0 +1,30 @@
+.rooms {
+    width: 1296px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 210px;
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__item {
+        margin-right: 24px;
+        margin-bottom: 32px;
+    }
+    &__description {
+height: 28px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #1A1A1A;
+margin-top: 9px;
+    }
+}
+
+.container {
+    background-color: #F5F4FA;;
+}

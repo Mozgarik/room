@@ -1,0 +1,36 @@
+.design {
+    width: 1327px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 49px;
+
+&__div {
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-top: 80px;
+}
+
+&__tittle {
+    width: 355px;
+height: 174px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 58px;
+color: #1A1A1A;
+margin-right: 136px;
+}
+&__description {
+    width: 569px;
+    height: 160px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    color: #AAAAAA;
+    
+}
+}

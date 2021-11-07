@@ -1,0 +1,39 @@
+.clients {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 110px;
+  &__tittle {
+    height: 48px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #1a1a1a;
+  }
+  &__description {
+    height: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #4A4A4A;
+    margin-top: 27px;
+    margin-bottom: 125px;
+  }
+  &__list {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+  &__item {
+      display: flex;
+      align-items: center;
+     justify-content: center;
+     margin-bottom: 49px;
+  }
+}
